@@ -1,0 +1,9 @@
+<svg width="220" height="180" viewBox="0 0 220 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="HART Europe mark">
+  <defs>
+    <linearGradient id="green" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0B5A37"/><stop offset="1" stop-color="#073B27"/></linearGradient>
+    <linearGradient id="dark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#202629"/><stop offset="1" stop-color="#111518"/></linearGradient>
+  </defs>
+  <path d="M40 106 L80 84 L80 136 L40 156 Z" fill="url(#dark)"/>
+  <path d="M104 38 L150 12 L150 136 L104 136 Z" fill="url(#green)"/>
+  <path d="M174 84 L214 106 L214 156 L174 136 Z" fill="url(#dark)"/>
+</svg>

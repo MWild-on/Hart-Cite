@@ -1,0 +1,10 @@
+<svg width="220" height="180" viewBox="0 0 220 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">HART Europe Holding icon</title>
+  <defs>
+    <linearGradient id="green" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0B5A37"/><stop offset="1" stop-color="#073B27"/></linearGradient>
+    <linearGradient id="dark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#202629"/><stop offset="1" stop-color="#111518"/></linearGradient>
+  </defs>
+  <path d="M30 110 L76 84 L76 146 L30 170 Z" fill="url(#dark)"/>
+  <path d="M92 42 L144 12 L144 146 L92 146 Z" fill="url(#green)"/>
+  <path d="M160 84 L206 110 L206 170 L160 146 Z" fill="url(#dark)"/>
+</svg>
