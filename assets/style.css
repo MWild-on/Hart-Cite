@@ -114,9 +114,9 @@ a {
   display: grid;
   grid-template-columns: 1.25fr 0.75fr;
   gap: clamp(28px, 5vw, 72px);
-  padding: clamp(54px, 7vw, 94px) clamp(20px, 5vw, 72px) 58px;
-  align-items: center;
-  min-height: 610px;
+  padding: 54px clamp(20px, 5vw, 72px) 58px;
+  align-items: start;
+  min-height: auto;
   background:
     radial-gradient(circle at 85% 15%, rgba(11, 74, 49, 0.14), transparent 28%),
     radial-gradient(circle at 20% 10%, rgba(18, 24, 38, 0.08), transparent 34%);
@@ -656,8 +656,7 @@ dl {
   }
 
   .hero {
-    min-height: auto;
-    padding-top: 56px;
+    padding-top: 54px;
   }
 
   .metric-grid,
