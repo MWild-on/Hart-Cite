@@ -131,10 +131,6 @@ a {
   max-width: 760px;
 }
 
-.investor-card dd {
-  font-size: 15px;
-}
-
 .eyebrow {
   margin: 0 0 14px;
   color: var(--accent);
@@ -181,6 +177,90 @@ p {
   gap: 14px;
   flex-wrap: wrap;
   margin-top: 28px;
+}
+
+.hero-cta {
+  display: grid;
+  gap: 14px;
+  align-self: center;
+  width: 100%;
+  max-width: 360px;
+}
+
+.hero-cta-card {
+  position: relative;
+  display: grid;
+  gap: 4px;
+  padding: 24px 52px 24px 24px;
+  border-radius: 18px;
+  border: 1px solid rgba(223, 228, 236, 0.95);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hero-cta-card:hover {
+  border-color: rgba(11, 74, 49, 0.35);
+  transform: translateY(-2px);
+  box-shadow: 0 22px 48px rgba(18, 24, 38, 0.1);
+}
+
+.hero-cta-card:first-child {
+  background: linear-gradient(145deg, #0b4a31 0%, #0f6041 100%);
+  border-color: transparent;
+  color: #fff;
+}
+
+.hero-cta-card:first-child .hero-cta-label,
+.hero-cta-card:first-child .hero-cta-desc {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.hero-cta-card:first-child:hover {
+  border-color: transparent;
+  box-shadow: 0 22px 48px rgba(11, 74, 49, 0.28);
+}
+
+.hero-cta-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.hero-cta-title {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+}
+
+.hero-cta-desc {
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--muted);
+}
+
+.hero-cta-arrow {
+  position: absolute;
+  top: 50%;
+  right: 22px;
+  transform: translateY(-50%);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--primary);
+  transition: transform 0.2s ease;
+}
+
+.hero-cta-card:first-child .hero-cta-arrow {
+  color: #fff;
+}
+
+.hero-cta-card:hover .hero-cta-arrow {
+  transform: translateY(-50%) translateX(4px);
 }
 
 .button {
@@ -583,6 +663,11 @@ dl {
     grid-template-columns: 1fr;
   }
 
+  .hero-cta {
+    max-width: none;
+    margin-top: 8px;
+  }
+
   .intro-section {
     align-items: start;
   }
@@ -638,13 +723,12 @@ dl {
     font-size: 16px;
   }
 
-  .hero-actions {
-    flex-direction: column;
-    align-items: stretch;
+  .hero-cta-card {
+    padding: 20px 48px 20px 20px;
   }
 
-  .hero-actions .button {
-    width: 100%;
+  .hero-cta-title {
+    font-size: 20px;
   }
 
   .hero-card,
